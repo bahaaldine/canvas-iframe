@@ -3,6 +3,19 @@
 > support for iframe in Canvas workpad
 
 ---
+## prerequisities
+
+Add the below configuration to your kibana.yml file, to allow Kibana to render iframe:
+
+```
+csp.rules:
+  # current defaults
+  - "script-src 'unsafe-eval' 'nonce-{nonce}'"
+  - "worker-src blob'"
+  - "child-src blob:"
+  # New rule for iframes
+  - "frame-src https://fr.wikipedia.org/wiki/Main_Page"
+```
 
 ## development
 

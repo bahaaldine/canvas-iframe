@@ -2,6 +2,8 @@
 
 > support for iframe in Canvas workpad
 
+![demo](https://github.com/bahaaldine/canvas-iframe/blob/master/demo.gif)
+
 ---
 ## prerequisities
 
